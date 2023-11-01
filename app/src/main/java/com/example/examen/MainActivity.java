@@ -9,14 +9,14 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button productsButton = findViewById(R.id.button_view_one);
-    Button shoppingCartButton = findViewById(R.id.button_view_two);
-    Button newProductButton = findViewById(R.id.button_view_two);
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Button productsButton = findViewById(R.id.button_view_one);
+        Button shoppingCartButton = findViewById(R.id.button_view_two);
+        Button newProductButton = findViewById(R.id.button_view_two);
 
         productsButton.setOnClickListener(new View.OnClickListener() {
             @Override
