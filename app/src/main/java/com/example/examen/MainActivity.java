@@ -15,8 +15,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button productsButton = findViewById(R.id.button_view_one);
-        Button shoppingCartButton = findViewById(R.id.button_view_two);
         Button newProductButton = findViewById(R.id.button_view_two);
+        Button shoppingCartButton = findViewById(R.id.button_view_three);
 
         productsButton.setOnClickListener(new View.OnClickListener() {
             @Override
