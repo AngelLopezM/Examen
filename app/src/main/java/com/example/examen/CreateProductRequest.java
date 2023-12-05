@@ -1,30 +1,12 @@
 package com.example.examen;
-import com.google.gson.annotations.Expose;
-public class ProductModel {
-    @Expose(serialize = false)
-    private int idProducto;
+
+public class CreateProductRequest {
     private String nombre;
     private int existencias;
     private double precio;
     private String descripcion;
 
-    // Constructores, getters y setters
-
-    public ProductModel(int idProducto, String nombre, int existencias, double precio, String descripcion) {
-        this.idProducto = idProducto;
-        this.nombre = nombre;
-        this.existencias = existencias;
-        this.precio = precio;
-        this.descripcion = descripcion;
-    }
-
-    public int getIdProducto() {
-        return idProducto;
-    }
-
-    public void setIdProducto(int idProducto) {
-        this.idProducto = idProducto;
-    }
+    // Constructores
 
     public String getNombre() {
         return nombre;

@@ -37,4 +37,10 @@
         android:text="Eliminar"
         android:onClick="eliminarProducto"/>
 
+    <Button
+        android:id="@+id/btnActualizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Actualizar" />
+
 </LinearLayout>
